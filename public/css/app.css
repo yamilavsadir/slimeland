@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: pink;
+  font-family: "Concert One", cursive;
+  overflow: hidden;
+}
+
+.banner {
+  background-image: url("/images/985665.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  font-weight: bold;
+  font-size: 6vh
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.barranav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 4vh
+}
+
+.secciones {
+  padding: 0;
+}
+
+.ulnavbar {
+  margin: 0;
+  width: 100%;
+  padding: 1vw 15vw;
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: white
+}
+
+.lisecciones{
+  justify-content: space-between
+}
