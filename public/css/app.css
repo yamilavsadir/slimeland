@@ -45,9 +45,23 @@ body {
   list-style: none;
   display: inline-flex;
   justify-content: space-between;
-  background-color: white
+  background-color: white;
+  align-items: center;
 }
 
-.lisecciones{
+.lisecciones {
   justify-content: space-between
+}
+
+.logo-icon {
+  width: 4vw;
+}
+
+.width-input {
+  width: 100%;
+}
+
+.cards-position {
+display: inline-block
+
 }
